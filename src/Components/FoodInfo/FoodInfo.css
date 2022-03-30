@@ -1,0 +1,28 @@
+.singleCardInfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.cardInfoContainer img {
+    width: 300px;
+   
+}
+.cardInfoContainer {
+    border: 1px solid white ;
+    padding: 20px;
+    width: 400px;
+}
+.desc {
+    margin: 15px 0px;
+}
+.cardInfoContainer button {
+    padding: 10px 30px ;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}

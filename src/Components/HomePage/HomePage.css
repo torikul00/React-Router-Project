@@ -1,0 +1,52 @@
+.container {
+    margin-top: 50px;
+    padding: 50px;
+}
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.search-container button {
+    color: white;
+    background-color:#3A3845 ;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid white ;
+    margin: 0px 10px;
+    cursor: pointer;
+
+}
+.title {
+    text-align: center;
+    font-size: 45px;
+}
+.search-container input {
+    background-color: #3A3845;
+    border: 2px solid white;
+    font-size: 17px;
+    padding: 0px 10px;
+    border-radius: 4px;
+
+}
+.food-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.more-food{
+    color: white;
+    background-color:#3A3845 ;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid white ;
+    margin: 50px auto;
+    cursor: pointer;
+}
+.fd-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

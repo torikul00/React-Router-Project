@@ -1,0 +1,18 @@
+.img {
+    width: 100%;
+}
+.card {
+    border: 0.1px  solid rgba(255, 255, 255, 0.322);
+    padding: 20px;
+
+
+}
+.button{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
