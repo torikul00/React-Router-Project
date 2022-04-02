@@ -1,7 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Navbar.css'
-import CustomLink from '../CustomeLink/CustomeLink';
+
 
 const Navbar = () => {
     const navigate = useNavigate()
@@ -15,9 +15,13 @@ const Navbar = () => {
                     <h2 onClick={backHome} className='logo'>Food Corner </h2>
                 </div>
                 <div className="links">
-                    <CustomLink className='custom' to="/">Home</CustomLink>
-                    <CustomLink className='custom' to="/about">About</CustomLink>
-                    <CustomLink className='custom' to="category">Category</CustomLink>
+                    <NavLink className={({ isActive }) =>
+                        isActive ? 'active-link' : 'link'} to="/">Home</NavLink>
+                    
+                    <NavLink className={({ isActive }) =>
+                        isActive ? 'active-link' : 'link'} to="login">Log in</NavLink>
+                    <NavLink className={({ isActive }) =>
+                        isActive ? 'active-link' : 'link'} to="/about">About</NavLink>
                 </div>
             </nav>
         </div>
